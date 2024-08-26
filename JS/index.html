@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Weekndlogo.jpg" alt="JioSaavn">The Weeknd</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of The Weeknd</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img  alt="1">
+                    <span class="songName">Starboy</span>
+                    <span class="songlistplay"><span class="timestamp">04:39 <i id="0" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">Popular</span>
+                    <span class="songlistplay"><span class="timestamp">03:35 <i id="1" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">Blinding Lights</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="2" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">After Hours</span>
+                    <span class="songlistplay"><span class="timestamp">06:09 <i id="3" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">Often</span>
+                    <span class="songlistplay"><span class="timestamp">04:52 <i id="4" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">Save Your Tears</span>
+                    <span class="songlistplay"><span class="timestamp">03:36 <i id="5" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img alt="1">
+                    <span class="songName">The Hills</span>
+                    <span class="songlistplay"><span class="timestamp">03:36 <i id="6" class="far songItemPlay fa-x fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome Icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif" width="42px" alt="" id="gif">Starboy -Weeknd
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
